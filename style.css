@@ -1,0 +1,63 @@
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+.logo {
+    background: url(img/logo.png);
+    width: 476px;
+    height: 260px;
+    display: inline-block;
+}
+
+.ip-click {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ip {
+    background: #71cb38;
+    border-bottom: 5px solid #348626;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ip:hover {
+    transition: all .1s ease-in;
+    filter: brightness(110%);
+}
+
+.ip-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        background: url(img/logo.png);
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+}
